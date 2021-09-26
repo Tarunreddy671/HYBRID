@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="utility.ExtentReporterNG"/>
+  </listeners>
+  <test name="Search_item(failed)" parallel="none">
+    <classes>
+      <class name="runner.Runner">
+        <methods>
+          <include name="searchElement"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- runner.Runner -->
+    </classes>
+  </test> <!-- Search_item(failed) -->
+</suite> <!-- Failed suite [Suite] -->

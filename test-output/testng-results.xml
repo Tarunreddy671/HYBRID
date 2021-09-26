@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71022" started-at="2021-09-26T07:45:23 IST" finished-at="2021-09-26T07:46:34 IST">
+    <groups>
+    </groups>
+    <test name="Search_item" duration-ms="71022" started-at="2021-09-26T07:45:23 IST" finished-at="2021-09-26T07:46:34 IST">
+      <class name="runner.Runner">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:runner.Runner@60438a68]" name="initialize" is-config="true" duration-ms="4516" started-at="2021-09-26T07:45:23 IST" finished-at="2021-09-26T07:45:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="searchElement(java.lang.String)[pri:0, instance:runner.Runner@60438a68]" name="searchElement" duration-ms="7654" started-at="2021-09-26T07:45:29 IST" data-provider="getDataProducts" finished-at="2021-09-26T07:45:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chair]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchElement -->
+        <test-method status="PASS" signature="searchElement(java.lang.String)[pri:0, instance:runner.Runner@60438a68]" name="searchElement" duration-ms="4861" started-at="2021-09-26T07:45:36 IST" data-provider="getDataProducts" finished-at="2021-09-26T07:45:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchElement -->
+        <test-method status="PASS" signature="trackOrder(java.lang.String,java.lang.String)[pri:1, instance:runner.Runner@60438a68]" name="trackOrder" duration-ms="6189" started-at="2021-09-26T07:45:42 IST" data-provider="getDataTrackOrderDetails" finished-at="2021-09-26T07:45:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4567101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7464012345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackOrder -->
+        <test-method status="PASS" signature="trackOrder(java.lang.String,java.lang.String)[pri:1, instance:runner.Runner@60438a68]" name="trackOrder" duration-ms="5036" started-at="2021-09-26T07:45:48 IST" data-provider="getDataTrackOrderDetails" finished-at="2021-09-26T07:45:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4567102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7464023456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackOrder -->
+        <test-method status="PASS" signature="bulkOrder()[pri:2, instance:runner.Runner@60438a68]" name="bulkOrder" duration-ms="4122" started-at="2021-09-26T07:45:53 IST" finished-at="2021-09-26T07:45:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bulkOrder -->
+        <test-method status="PASS" signature="logIn(java.lang.String,java.lang.String)[pri:3, instance:runner.Runner@60438a68]" name="logIn" duration-ms="9358" started-at="2021-09-26T07:45:57 IST" data-provider="getDataLogin" finished-at="2021-09-26T07:46:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="logIn(java.lang.String,java.lang.String)[pri:3, instance:runner.Runner@60438a68]" name="logIn" duration-ms="13442" started-at="2021-09-26T07:46:07 IST" data-provider="getDataLogin" finished-at="2021-09-26T07:46:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummyaditya00235@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aditya@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="navbarValidation()[pri:4, instance:runner.Runner@60438a68]" name="navbarValidation" duration-ms="1515" started-at="2021-09-26T07:46:20 IST" finished-at="2021-09-26T07:46:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbarValidation -->
+        <test-method status="PASS" signature="differentPaymentMethods()[pri:5, instance:runner.Runner@60438a68]" name="differentPaymentMethods" duration-ms="1269" started-at="2021-09-26T07:46:22 IST" finished-at="2021-09-26T07:46:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- differentPaymentMethods -->
+        <test-method status="PASS" signature="help(java.lang.String)[pri:6, instance:runner.Runner@60438a68]" name="help" duration-ms="3512" started-at="2021-09-26T07:46:23 IST" data-provider="getHelpData" finished-at="2021-09-26T07:46:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[What is the estimated delivery time]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- help -->
+        <test-method status="PASS" signature="help(java.lang.String)[pri:6, instance:runner.Runner@60438a68]" name="help" duration-ms="2911" started-at="2021-09-26T07:46:26 IST" data-provider="getHelpData" finished-at="2021-09-26T07:46:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Do you ship to my city and location]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- help -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runner.Runner@60438a68]" name="tearDown" is-config="true" duration-ms="4291" started-at="2021-09-26T07:46:29 IST" finished-at="2021-09-26T07:46:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Search_item -->
+  </suite> <!-- Suite -->
+</testng-results>
